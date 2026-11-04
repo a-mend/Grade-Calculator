@@ -66,7 +66,6 @@ if total_weight == 100:
     
     # Quick letter grade logic
     if final_grade >= 90:
-        st.balloons()
         st.success("Letter Grade: A")
     elif final_grade >= 80:
         st.success("Letter Grade: B")
